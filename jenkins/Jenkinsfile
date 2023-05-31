@@ -13,5 +13,12 @@ pipeline{
                 }
 	    }
 
+	stage('deeploy'){
+
+            steps{
+                sh 'echo Deploy'
+                }
+            }
+
         }
     }
